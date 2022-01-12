@@ -1,0 +1,10 @@
+chainid: 42
+subgraph: https://api.thegraph.com/subgraphs/name/keeganlee/publics
+infura: https://kovan.infura.io/v3/426a93ed8306488cab500db22a4c85a1
+comptroller: 0x9d6D5Ab86563a5d62039037059D7874F4DC9f88b
+wallet: "YouPrivateKey"
+log:
+  fileDir: logs
+  fileName: liquidator
+  prefix:
+  level: debug
